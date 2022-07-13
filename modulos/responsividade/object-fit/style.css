@@ -1,0 +1,31 @@
+section{
+    box-align: center;
+    background-color: rgba(51, 153, 122, 0.473);
+    text-align: center;
+    margin: 15px;
+}
+#imagem0{
+    width: 400px;
+    height: 400px;
+}
+#imagem1{
+    object-fit: contain;
+    width: 400px;
+    height: 400px;
+
+}
+#imagem2{
+    object-fit:cover;
+    width: 400px;
+    height: 400px;
+}
+#imagem3{
+    object-fit: none;
+    width: 400px;
+    height: 400px;
+}
+#imagem4{
+    object-fit:scale-down;
+    width: 400px;
+    height: 400px;
+}

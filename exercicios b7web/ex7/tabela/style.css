@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    width: 600px;
+    
+    
+}
+thead{
+    font-size: 15pt;
+    font-weight: bolder;
+    background-color: #ccc;
+    
+}
+tbody tr{
+    font-size: 13pt;
+}
+ tr td{
+    padding: 10px;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: #0077ff;
+}
+tbody  tr:hover{
+    background-color: #000;
+    color:#fff;
+}

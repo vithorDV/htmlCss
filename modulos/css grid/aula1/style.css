@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns:100px repeat(2,275px) repeat(3,1fr) 100px;
+    gap: 10px;
+    grid-auto-rows: minmax(200px,auto);
+    background-color: gray;
+    
+}
+.item{
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 20px;
+    color: #000;
+    font-size: 15pt;
+
+}

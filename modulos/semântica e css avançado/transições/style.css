@@ -1,0 +1,22 @@
+#area{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    transition: all 0.75s linear;
+}
+#area:hover{
+    background-color: black;
+    width: 300px;
+}
+#texto{
+    text-align: center;
+    transition: all 1s linear;
+    margin-top: 15px;
+}
+#texto:hover{
+    font-size: 15pt;
+    
+    text-shadow:4px 15px 0px #000;
+
+}

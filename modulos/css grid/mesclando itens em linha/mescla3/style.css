@@ -1,0 +1,20 @@
+.container{
+    background-color: #ccc;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    justify-content: center;
+}
+.item{
+    background-color: blue;
+    color: white;
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.item:first-child{
+    grid-column: 1/ span 2 ;
+    grid-row: 2/ span 2;
+    
+}

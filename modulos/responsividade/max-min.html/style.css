@@ -1,0 +1,10 @@
+section{
+    text-align: center;
+    box-align: center;
+}
+img{
+    width: 400px;
+    height: 320px;
+    object-fit: contain;
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+          color: black;
+      }
+        fieldset{
+            width: 200px;
+            background-color: gray;
+            margin-bottom: 10px;
+            border: 2px solid #000;
+            color: white;
+        }
+        legend{
+            border: 2px solid black;
+            background-color: #000;
+            color: gray;
+            padding: 5px;
+        }
+        input{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+   <form action="blala.php" method="get">
+       <fieldset>
+           <legend><strong>Dados pessoais</strong></legend>
+       
+       Nome: <br>
+       <input type="text" name="name" id="name" required minlength="2" maxlength="10"><br>
+       Sobrenome: <br>
+       <input type="text" name="lastname" id="lastname" required minlength="2"><br>
+       Email <br>
+       <input type="text" name="lastname" id="lastname" required minlength="2"><br>
+       Idade: <br>
+       <input type="number" name="age" id="age" step="2" min="18" max="150"> <br>
+       Data de nascimento: <br>
+       <input type="date" name="date" id="date">
+       </fieldset>
+
+       <fieldset>
+            <legend><strong>Dados profissionais</strong></legend>
+
+            Nome da empresa <br>
+            <input type="text" name="nome" id="nome"><br>
+            Cargo na empresa <br>
+            <input type="text" name="nome" id="nome">
+
+       </fieldset>
+       <input type="submit" value="cadastrar">
+
+   </form>
+   
+</body>
+</html>

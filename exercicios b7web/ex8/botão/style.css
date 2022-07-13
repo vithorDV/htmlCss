@@ -1,0 +1,28 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#botão{
+    width: 200px;
+    height: 70px;
+    background-image:linear-gradient(to right,#0077ff,#007777);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#texto{
+    color: #fff;
+    font-size: 20pt;
+    font-weight:900;
+
+}
+#botão:hover{
+    background-image:linear-gradient(to right,#0044aa,#0044aa)
+}

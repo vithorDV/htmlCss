@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>abre o site em dispositivos diferentes, ou amplie e diminua o zoom da página.</p>
+    <picture>
+        
+        
+        <source media="(max-width: 700px)" srcset="imagens/imagempequena.png" type="image/png">
+        <source media="(max-width: 900px)" srcset="imagens/imagemmédia.png" type="image/png">
+        <img src="imagens/imagemgrande.png" alt="imagem flexível">
+    </picture>
+    <br>
+    <h1>aprendendo a reproduzira aúdios</h1>
+    <audio preload="metadata" src="imagens/midia/TrainingintheFire-TwinMusicom.mp3" controls autoplay>musica do youtube studio
+    </audio>
+    <audio preload = "metada" src="imagens/midia/desafio21.mp3" controls autoplay>trilha sonora the witcher 3 </audio>
+    <p>infelizmente seu navagador não é compatiivel com o audio, clique aqui para baixa-lo <a href="imagens/midia/desafio21.mp3">clique aqui</a></p>
+    <audio preload="metadata" autoplay controls loop >
+        <source src="imagens/midia/TrainingintheFire-TwinMusicom.mp3" type="audio/mpeg"> 
+        <source src="imagens/midia/desafio21.mp3" type="audio/mpeg"> 
+    </audio>
+    <a href="videos/videos.html" target="_blank">link para ir para videos
+    </a>
+</body>
+</html>

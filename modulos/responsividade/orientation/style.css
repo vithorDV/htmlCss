@@ -1,0 +1,19 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000;
+    
+}
+body{
+    display:flex
+}
+@media(orientation:landscape){
+    body{
+    flex-direction: row;
+}
+}
+@media(orientation:portrait){
+    body{
+    flex-direction: column;
+}
+}

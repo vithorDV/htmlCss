@@ -1,0 +1,27 @@
+:root{
+    --corFundo:#000;
+    --corFonte:#fff;
+    --corFundo1:#555;
+    --tamanhoFonte:25px;
+}
+body{
+    background-color:var(--corFundo);
+    font-size: var(--tamanhoFonte);
+}
+h1{
+    color:var(--cor-fonte);
+    background-color:var(--corFundo1);
+}
+#container{
+    background-color:var(--corFundo1);
+    color:var(--cor-fonte);
+}
+h2{
+    --corFonteH2:#f00;
+    color:var(--corFonteH2);
+}
+@media(max-width:450px){
+    :root{
+        --tamanhoFonte:15px;
+    }
+}
