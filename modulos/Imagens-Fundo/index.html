@@ -5,8 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-image: url('assets/images/wallpaper001.jpg');
+        }
+        #espaço{
+            display: grid;
+            align-items: center;
+            justify-items:center;
+            grid-template-columns: repeat(3,1fr);
+            gap: 40px;
+           
+            
+
+        }
+        .quadrado{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            display: inline-block;
+            border-radius: 10%;
+            
+        }
+        .quadrado:nth-child(1){
+            background-image: url('assets/images/pattern001.png');
+        }
+        .quadrado:nth-child(2){
+            background-image: url('assets/images/pattern002.png');
+        }
+        .quadrado:nth-child(3){
+            background-image: url('assets/images/pattern003.png');
+        }
+        .quadrado:nth-child(4){
+            background-image: url('assets/images/wallpaper005.jpg');
+        }
+        .quadrado:nth-child(5){
+            background-image: url('assets/images/wallpaper003.jpg');
+        }
+        .quadrado:nth-child(6){
+            background-image: url('assets/images/wallpaper002.jpg');
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <div id="espaço">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
 </body>
 </html>
